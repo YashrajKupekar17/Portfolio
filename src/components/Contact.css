@@ -1,0 +1,55 @@
+/* Contact.css */
+.contact {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.contact-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    animation: slideInFromLeft 1s ease-out;
+}
+
+.contact-content {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    animation: fadeIn 2s ease-out;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover to match your design */
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

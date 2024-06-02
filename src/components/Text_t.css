@@ -1,0 +1,39 @@
+/* Text.css */
+.about-me {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-me-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    animation: slideInFromLeft 1s ease-out;
+}
+
+.about-me-content {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    animation: fadeIn 2s ease-out;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

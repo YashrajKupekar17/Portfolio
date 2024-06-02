@@ -6,7 +6,7 @@ import Text from './components/Text';
 import Home from './components/home';
 import Expertise from './components/expertise';
 import Work from './components/work';
-// import Experience from './components/experience';
+// import Experience from './components/experience
 import Contact from './components/contact';
 import { useRef } from 'react';
 
