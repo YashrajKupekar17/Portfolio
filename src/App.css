@@ -1,0 +1,13 @@
+body {
+  background-image: url("../src/assets/tamalsen-home-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding-top: 60px; /* Adjust based on the height of your navbar */
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* Ensures smooth scrolling */
+}
