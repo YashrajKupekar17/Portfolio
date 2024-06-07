@@ -23,7 +23,6 @@ const Work = () => {
         <section id="work" className="work-section">
             <div className="work-content">
                 <h2>MY WORK</h2>
-                <p>Some text about your work...</p>
             </div>
             <div className="videos-container">
                 <div className="video-wrapper" onClick={() => openModal('Description of Project 1')}>

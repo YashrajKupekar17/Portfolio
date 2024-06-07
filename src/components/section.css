@@ -1,6 +1,7 @@
 section {
     padding: 100px 20px;
     min-height: 100vh;
+    justify-content: space-between;
 }
 
 #home {
@@ -13,6 +14,7 @@ section {
 
 #work {
     /* background: #cccccc; */
+    /* background-image: -moz-linear-gradient(); */
 }
 
 #experience {
@@ -101,7 +103,7 @@ section {
     transform: translateX(-50%);
     width: 50%; /* Adjust size to half */
     height: auto; /* Maintain aspect ratio */
-    opacity: 1; /* Ensure full visibility */
+    opacity: 0.2; /* Set opacity to make the image translucent */
 }
 
 .expertise-box {
@@ -150,13 +152,15 @@ section {
     background-color: #1a191d; /* Dark blue background */
     color: white; /* Text color */
     height: 100vh;
+    /* margin-top: 0; */
+    /* background-image: url('../assets/dark_bh.jpg'); */
 }
 
 .work-content {
     width: 100%; /* Adjust width as needed */
     padding: 20px;
     text-align: left; /* Align text to the left */
-    height: 100vh;
+    height: 100%;
 }
 
 .work-content h2 {
@@ -174,19 +178,21 @@ section {
     width: 60%; /* Adjust width as needed */
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns */
-    gap: 30px; /* Space between videos */
+    gap: 10px; /* Decreased space between videos */
     padding: 20px;
     height: 100vh;
+    margin-top: 0;
 }
 
 .video-wrapper {
     position: relative;
-    width: 100%;
+    width: 80%;
     text-align: left; /* Align text to the left */
     cursor: pointer;
 }
 
 .video-wrapper video {
+    margin: 0%;
     width: 100%;
     height: auto;
     border: none;

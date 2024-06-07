@@ -1,5 +1,8 @@
 // Contact.js
 import React, { useEffect, useState } from 'react';
+// import { faEnvelope, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import './Contact.css';
 
 const Contact = () => {
@@ -19,6 +22,12 @@ const Contact = () => {
 
         return () => clearInterval(interval);
     }, []);
+
+    useEffect(() => {
+        if (text === contactText) {
+            setText(prevText => prevText + " Feel free to follow me on Instagram and Twitter too!");
+        }
+    }, [text]);
 
     return (
         <div className="contact">

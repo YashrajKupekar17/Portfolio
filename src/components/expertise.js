@@ -43,7 +43,7 @@ const Expertise = React.forwardRef((props, ref) => {
                         onClick={() => openModal(item.description)}
                     >
                         <h3>{item.title}</h3>
-                        <p>Click to learn more</p>
+                        {/* <p>Click to learn more</p> */}
                     </div>
                 ))}
             </div>
